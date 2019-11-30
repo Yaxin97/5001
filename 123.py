@@ -7,12 +7,9 @@ import time
 from sklearn.utils import shuffle
 from sklearn.preprocessing import scale
 from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.model_selection import train_test_split,GridSearchCV
-from sklearn.ensemble import RandomForestClassifier,RandomForestRegressor
+from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.kernel_ridge import KernelRidge
-from sklearn.svm import SVR,SVC
 import warnings
 warnings.filterwarnings('ignore')
 
